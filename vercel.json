@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "cleanUrls": true,
+  "public": false,
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}

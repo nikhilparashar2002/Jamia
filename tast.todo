@@ -1,0 +1,26 @@
+npm install --legacy-peer-deps
+keywords are getting removed after page change -- fixed
+need preview sections , which will include all the things -- done
+make category drop down and content can have multiple category -- done
+remove additional media -- done
+add option to define tables row and collum
+ability to define which collor to pick
+give some icon in align drop down
+active section should be based 10 sec refresh
+change writers to seo
+add trending section to add trending api and model are already created
+Add scroler in table for mobile view,
+
+fo
+
+-----Confermed------
+
+how you want to see the forms data -- in dashboard for now
+data for comparing univeresities -- will have to scrape from website
+we will be making default theme for the website -- allowed
+we dont have as many pages as they have in there websites, what you wanna do about that -- get dynemic footer for it.
+
+
+--
+add search option inside blogs, for searching all blogs
+add course vise dropdown

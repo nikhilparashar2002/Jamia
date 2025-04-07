@@ -1,0 +1,118 @@
+/* Header styles (for dashboard Header and page headers) */
+.header, .navbar {
+  background-color: #fff; /* Customize as needed */
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: #fff;
+}
+
+/* Footer styles (if used in page.tsx) */
+.footer {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* General page container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Blog page styles */
+.blog-title {
+  font-size: 2.5rem;
+  color: rgb(0, 48, 87);
+  margin-bottom: 1rem;
+}
+
+.blog-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Additional layout and spacing styles */
+.section-padding {
+  padding: 4rem 1rem;
+}
+
+/* Example for non-critical text styles */
+.text-secondary {
+  color: #555;
+}
+
+/* Non-critical styles for blog and header components */
+
+/* Layout utilities */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Blog page specific styles */
+.blog-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Card animations and hover effects */
+.card-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Secondary content styles */
+.sidebar {
+  position: sticky;
+  top: 1rem;
+}
+
+/* Footer and supplementary content */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Animations and transitions */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
