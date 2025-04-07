@@ -14,7 +14,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import BlogSearch from "@/components/blogSearch";
 
 // Shared site URL
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://after12th.icnn.in/";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jamia-chi.vercel.app/";
 
 // Revalidate every hour
 export const revalidate = 3600;

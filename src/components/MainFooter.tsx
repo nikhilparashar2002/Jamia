@@ -224,7 +224,7 @@ export default function MainFooter() {
           <div key={index} className="space-y-2">
             {chunk.map((course, idx) => (
               <div key={idx} className="mb-2">
-                <Link href={`https://after12th.icnn.in/${course.slug}`}>
+                <Link href={`https://jamia-chi.vercel.app/${course.slug}`}>
                   <div className="text-white hover:text-yellow-300 text-sm font-normal py-1">
                     {course.title}
                   </div>

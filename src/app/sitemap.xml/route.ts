@@ -20,7 +20,7 @@ export async function GET() {
     .sort({ updatedAt: -1 })
     .lean();
 
-    const baseUrl = process.env.SITE_URL || 'https://after12th.icnn.in';
+    const baseUrl = process.env.SITE_URL || 'https://jamia-chi.vercel.app';
     
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated at: ${new Date().toISOString()} -->

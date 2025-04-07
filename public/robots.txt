@@ -22,4 +22,4 @@ Allow: /sitemap.xml
 
 
 # Sitemap location for search engines
-Sitemap: https://after12th.icnn.in/sitemap.xml
+Sitemap: https://jamia-chi.vercel.app/sitemap.xml
